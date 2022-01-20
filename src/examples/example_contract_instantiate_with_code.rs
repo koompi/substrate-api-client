@@ -53,7 +53,7 @@ fn main() {
 
     let xt = api.contract_instantiate_with_code(
         56_000_000_000_000_000,
-        500_000,
+        500_0000,
         wasm,
         vec![1u8],
         vec![1u8],
