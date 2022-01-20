@@ -52,7 +52,7 @@ fn main() {
         .expect("cannot subscribe to events");
 
     let xt = api.contract_instantiate_with_code(
-        1_000_000_000_000_000,
+        5_000_000_000_000_000,
         500_000,
         wasm,
         vec![1u8],
